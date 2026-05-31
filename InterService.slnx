@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ServiceA/ServiceA.csproj" />
+  <Project Path="ServiceB/ServiceB.csproj" />
+  <Project Path="ServiceC/ServiceC.csproj" />
+  <Project Path="SharedContracts/SharedContracts.csproj" />
+</Solution>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "pl1M7yjNyZs=",
+  "success": true,
+  "projectFilePath": "G:\\programming\\test-trident\\ServiceA\\ServiceA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit\\9.1.1\\masstransit.9.1.1.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.abstractions\\9.1.1\\masstransit.abstractions.9.1.1.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.rabbitmq\\9.1.1\\masstransit.rabbitmq.9.1.1.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
