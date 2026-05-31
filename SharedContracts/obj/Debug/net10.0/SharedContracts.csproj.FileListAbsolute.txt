@@ -1,0 +1,12 @@
+G:\programming\test-trident\SharedContracts\bin\Debug\net10.0\SharedContracts.deps.json
+G:\programming\test-trident\SharedContracts\bin\Debug\net10.0\SharedContracts.dll
+G:\programming\test-trident\SharedContracts\bin\Debug\net10.0\SharedContracts.pdb
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.GeneratedMSBuildEditorConfig.editorconfig
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.AssemblyInfoInputs.cache
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.AssemblyInfo.cs
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.csproj.CoreCompileInputs.cache
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.sourcelink.json
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.dll
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\refint\SharedContracts.dll
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.pdb
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\ref\SharedContracts.dll

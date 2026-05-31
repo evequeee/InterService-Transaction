@@ -139,6 +139,10 @@
       "SharedContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Google.Protobuf": "3.25.1",
+          "Grpc.Net.Client": "2.60.0"
+        },
         "compile": {
           "bin/placeholder/SharedContracts.dll": {}
         },

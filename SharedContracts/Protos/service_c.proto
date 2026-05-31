@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "SharedContracts.Grpc";
+
+package servicec;
+
+service TransactionService {
+  rpc ExecuteSyncTask (GrpcRequest) returns (GrpcResponse);
+}
+
+message GrpcRequest { }
+
+message GrpcResponse {
+  bool success = 1;
+  string message = 2;
+}
