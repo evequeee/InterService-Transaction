@@ -16,3 +16,6 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
     });
 });
+
+var host = builder.Build();
+host.Run();

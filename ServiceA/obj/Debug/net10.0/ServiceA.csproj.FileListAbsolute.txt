@@ -6,6 +6,11 @@ G:\programming\test-trident\ServiceA\bin\Debug\net10.0\ServiceA.deps.json
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\ServiceA.runtimeconfig.json
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\ServiceA.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\ServiceA.pdb
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Google.Protobuf.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Core.Api.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Client.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.ClientFactory.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Common.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\MassTransit.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\MassTransit.Abstractions.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\MassTransit.RabbitMqTransport.dll
@@ -38,8 +43,3 @@ G:\programming\test-trident\ServiceA\obj\Debug\net10.0\refint\ServiceA.dll
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ServiceA.pdb
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ServiceA.genruntimeconfig.cache
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ref\ServiceA.dll
-G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Google.Protobuf.dll
-G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Core.Api.dll
-G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Client.dll
-G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Common.dll
-G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.ClientFactory.dll

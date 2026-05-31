@@ -5,6 +5,10 @@ G:\programming\test-trident\ServiceB\bin\Debug\net10.0\ServiceB.deps.json
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\ServiceB.runtimeconfig.json
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\ServiceB.dll
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\ServiceB.pdb
+G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Google.Protobuf.dll
+G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Core.Api.dll
+G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Net.Client.dll
+G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Net.Common.dll
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\MassTransit.dll
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\MassTransit.Abstractions.dll
 G:\programming\test-trident\ServiceB\bin\Debug\net10.0\MassTransit.RabbitMqTransport.dll
@@ -56,7 +60,3 @@ G:\programming\test-trident\ServiceB\obj\Debug\net10.0\refint\ServiceB.dll
 G:\programming\test-trident\ServiceB\obj\Debug\net10.0\ServiceB.pdb
 G:\programming\test-trident\ServiceB\obj\Debug\net10.0\ServiceB.genruntimeconfig.cache
 G:\programming\test-trident\ServiceB\obj\Debug\net10.0\ref\ServiceB.dll
-G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Google.Protobuf.dll
-G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Core.Api.dll
-G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Net.Client.dll
-G:\programming\test-trident\ServiceB\bin\Debug\net10.0\Grpc.Net.Common.dll

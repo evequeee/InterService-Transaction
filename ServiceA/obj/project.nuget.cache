@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jJqIlJnKuI8=",
+  "dgSpecHash": "AExZEorgiMY=",
   "success": true,
   "projectFilePath": "G:\\programming\\test-trident\\ServiceA\\ServiceA.csproj",
   "expectedPackageFiles": [
@@ -9,12 +9,12 @@
     "C:\\Users\\Bohdan Q\\.nuget\\packages\\grpc.net.client\\2.80.0\\grpc.net.client.2.80.0.nupkg.sha512",
     "C:\\Users\\Bohdan Q\\.nuget\\packages\\grpc.net.clientfactory\\2.80.0\\grpc.net.clientfactory.2.80.0.nupkg.sha512",
     "C:\\Users\\Bohdan Q\\.nuget\\packages\\grpc.net.common\\2.80.0\\grpc.net.common.2.80.0.nupkg.sha512",
-    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit\\9.1.1\\masstransit.9.1.1.nupkg.sha512",
-    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.abstractions\\9.1.1\\masstransit.abstractions.9.1.1.nupkg.sha512",
-    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.rabbitmq\\9.1.1\\masstransit.rabbitmq.9.1.1.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit\\8.3.6\\masstransit.8.3.6.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.abstractions\\8.3.6\\masstransit.abstractions.8.3.6.nupkg.sha512",
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\masstransit.rabbitmq\\8.3.6\\masstransit.rabbitmq.8.3.6.nupkg.sha512",
     "C:\\Users\\Bohdan Q\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.5\\microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
     "C:\\Users\\Bohdan Q\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
-    "C:\\Users\\Bohdan Q\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512"
+    "C:\\Users\\Bohdan Q\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
