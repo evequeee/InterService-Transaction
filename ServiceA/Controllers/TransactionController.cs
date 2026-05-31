@@ -26,27 +26,42 @@ public class TransactionController : ControllerBase
     [HttpPost("start")]
     public async Task<IActionResult> StartTransaction()
     {
-        var taskA = _clientA.GetResponse<WorkAResult>(new DoWorkA());
-        var taskB = _clientB.GetResponse<WorkBResult>(new DoWorkB());
-
-        await Task.WhenAll(taskA, taskB);
-
-        var resultA = taskA.Result.Message;
-        var resultB = taskB.Result.Message;
-
-        if (!resultA.Success || !resultB.Success)
+        try
         {
-            return BadRequest("Transaction failed at asynchronous step.");
+            var taskA = _clientA.GetResponse<WorkAResult>(new DoWorkA());
+            var taskB = _clientB.GetResponse<WorkBResult>(new DoWorkB());
+
+            await Task.WhenAll(taskA, taskB);
+
+            var resultA = taskA.Result.Message;
+            var resultB = taskB.Result.Message;
+
+            if (!resultA.Success || !resultB.Success)
+            {
+                return BadRequest(new { Status = "Transaction failed.", Error = "One of the async steps failed."});
+            }
+
+            var grpcResponse = await _grpcClient.ExecuteSyncTaskAsync(new GrpcRequest());
+
+            return Ok(new
+            {
+                Status = "Transaction Completed",
+                StepA = resultA.Message,
+                StepB = resultB.Message,
+                StepC = grpcResponse.Message
+            });
         }
-
-        var grpcResponse = await _grpcClient.ExecuteSyncTaskAsync(new GrpcRequest());
-
-        return Ok(new
+        catch (MassTransit.RequestTimeoutException)
         {
-            Status = "Transaction Completed",
-            StepA = resultA.Message,
-            StepB = resultB.Message,
-            StepC = grpcResponse.Message
-        });
+            return StatusCode(504, new
+            {
+                Status = "Transaction Failed",
+                Error = "Timeout waiting for responses from internal services. One of the services might be down."
+            });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { Status = "Transaction Failed", Error = ex.Message });
+        }
     }
 }
