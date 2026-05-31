@@ -54,6 +54,10 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.80.0, )"
+            },
             "MassTransit.RabbitMQ": {
               "target": "Package",
               "version": "[9.1.1, )"

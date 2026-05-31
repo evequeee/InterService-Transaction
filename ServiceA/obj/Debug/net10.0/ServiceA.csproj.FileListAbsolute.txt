@@ -42,3 +42,4 @@ G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Google.Protobuf.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Core.Api.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Client.dll
 G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Common.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.ClientFactory.dll

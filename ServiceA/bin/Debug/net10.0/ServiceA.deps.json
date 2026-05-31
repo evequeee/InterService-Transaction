@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "ServiceA/1.0.0": {
         "dependencies": {
+          "Grpc.Net.ClientFactory": "2.80.0",
           "MassTransit.RabbitMQ": "9.1.1",
           "Microsoft.AspNetCore.OpenApi": "10.0.5",
           "SharedContracts": "1.0.0"
@@ -24,33 +25,44 @@
           }
         }
       },
-      "Grpc.Core.Api/2.60.0": {
+      "Grpc.Core.Api/2.80.0": {
         "runtime": {
           "lib/netstandard2.1/Grpc.Core.Api.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.60.0.0"
+            "fileVersion": "2.66.0.0"
           }
         }
       },
-      "Grpc.Net.Client/2.60.0": {
+      "Grpc.Net.Client/2.80.0": {
         "dependencies": {
-          "Grpc.Net.Common": "2.60.0"
+          "Grpc.Net.Common": "2.80.0"
         },
         "runtime": {
-          "lib/net8.0/Grpc.Net.Client.dll": {
+          "lib/net10.0/Grpc.Net.Client.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.60.0.0"
+            "fileVersion": "2.66.0.0"
           }
         }
       },
-      "Grpc.Net.Common/2.60.0": {
+      "Grpc.Net.ClientFactory/2.80.0": {
         "dependencies": {
-          "Grpc.Core.Api": "2.60.0"
+          "Grpc.Net.Client": "2.80.0"
         },
         "runtime": {
-          "lib/net8.0/Grpc.Net.Common.dll": {
+          "lib/net10.0/Grpc.Net.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.60.0.0"
+            "fileVersion": "2.66.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.80.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.80.0"
+        },
+        "runtime": {
+          "lib/net10.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.66.0.0"
           }
         }
       },
@@ -115,7 +127,7 @@
       "SharedContracts/1.0.0": {
         "dependencies": {
           "Google.Protobuf": "3.25.1",
-          "Grpc.Net.Client": "2.60.0"
+          "Grpc.Net.Client": "2.80.0"
         },
         "runtime": {
           "SharedContracts.dll": {
@@ -139,26 +151,33 @@
       "path": "google.protobuf/3.25.1",
       "hashPath": "google.protobuf.3.25.1.nupkg.sha512"
     },
-    "Grpc.Core.Api/2.60.0": {
+    "Grpc.Core.Api/2.80.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VWah+8dGJhhsay5BQ/Ljq6GYDWj0lSjdzqyoBgUQhXTbBqhs+q5dRFROKxI1xxzlL4pfUO45cf/y+KnHVFG9ew==",
-      "path": "grpc.core.api/2.60.0",
-      "hashPath": "grpc.core.api.2.60.0.nupkg.sha512"
+      "sha512": "sha512-i/8s+MOrYa6n7BmZ5bilcbHk+EMJDQHm2MKLhwGAT+urQqlZ6cpjvSivYvuULjebuX+UKieLYZbLRCmVQxFRkw==",
+      "path": "grpc.core.api/2.80.0",
+      "hashPath": "grpc.core.api.2.80.0.nupkg.sha512"
     },
-    "Grpc.Net.Client/2.60.0": {
+    "Grpc.Net.Client/2.80.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J9U96gjZHOcqSgAThg9vZZhLsbTD005bUggPtMP/RVQnGc3+tQJTpkRUCJtJWq9cykNydsRVoyU38TjPP/VJ4A==",
-      "path": "grpc.net.client/2.60.0",
-      "hashPath": "grpc.net.client.2.60.0.nupkg.sha512"
+      "sha512": "sha512-I1Aa24nTRMHqx0pmQfvthFsOpejquDjiJV6092KBqjw6EEr3wA9CMXlrdkoEgHartOiJrpKyZiQRl7n0NVlfBg==",
+      "path": "grpc.net.client/2.80.0",
+      "hashPath": "grpc.net.client.2.80.0.nupkg.sha512"
     },
-    "Grpc.Net.Common/2.60.0": {
+    "Grpc.Net.ClientFactory/2.80.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y/917aplgD1RA0q1cd9WpnMGyl9Luu3WZl6ZMpPvNQwg2TNw/3uXUDSriDBybeCtxnKUCtxUcWO3WsVkhM1DcA==",
-      "path": "grpc.net.common/2.60.0",
-      "hashPath": "grpc.net.common.2.60.0.nupkg.sha512"
+      "sha512": "sha512-YtY1DWID2phwiGc8qBG7+wf00Do5jE7BkJgCc6nbu5b50OsD89mSd73oCE8fCnUo7IjtDAEYFOYI3NSzgn28gw==",
+      "path": "grpc.net.clientfactory/2.80.0",
+      "hashPath": "grpc.net.clientfactory.2.80.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.80.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E2ERsx+9IXlry4yjBl8btx0XMIKzymGNSvX5jmBS/uSwYyYDoKIDcIREyLqFLvd8vcJdcoRlycpvn9YRXutFpQ==",
+      "path": "grpc.net.common/2.80.0",
+      "hashPath": "grpc.net.common.2.80.0.nupkg.sha512"
     },
     "MassTransit/9.1.1": {
       "type": "package",
