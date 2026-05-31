@@ -94,6 +94,10 @@
         }
       },
       "SharedContracts/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.31.1",
+          "Grpc.Net.Client": "2.80.0"
+        },
         "runtime": {
           "SharedContracts.dll": {
             "assemblyVersion": "1.0.0.0",

@@ -10,3 +10,4 @@ G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.dl
 G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\refint\SharedContracts.dll
 G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.pdb
 G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\ref\SharedContracts.dll
+G:\programming\test-trident\SharedContracts\obj\Debug\net10.0\SharedContracts.csproj.AssemblyReference.cache

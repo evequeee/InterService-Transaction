@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SharedContracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68df42c3f5ba8c8283373cac9cc0e3806d14988")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1df5e3a46e487e3fb2c4adfa75b15b007f333ba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedContracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SharedContracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

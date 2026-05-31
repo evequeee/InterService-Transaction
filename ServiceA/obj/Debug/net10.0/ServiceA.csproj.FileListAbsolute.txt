@@ -38,3 +38,7 @@ G:\programming\test-trident\ServiceA\obj\Debug\net10.0\refint\ServiceA.dll
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ServiceA.pdb
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ServiceA.genruntimeconfig.cache
 G:\programming\test-trident\ServiceA\obj\Debug\net10.0\ref\ServiceA.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Google.Protobuf.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Core.Api.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Client.dll
+G:\programming\test-trident\ServiceA\bin\Debug\net10.0\Grpc.Net.Common.dll
